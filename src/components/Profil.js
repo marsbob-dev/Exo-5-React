@@ -1,12 +1,13 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 
 class Profil extends Component {
-    render(){
+    render (){
+        let description = this.props.children ? (<p>{this.props.children}</p>) : (<p>No description</p>)
         return (
             <div>
-                <h1>Bohbot</h1>
-                <h2>Marcelin</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, quam.</p>
+                <h1>{this.props.surname}</h1>
+                <h2>{this.props.name}</h2>
+                {description}
             </div>
         )
     }

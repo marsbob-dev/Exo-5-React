@@ -1,14 +1,12 @@
 import React, {Component} from 'react';
-import Profil from './components/Profil'
-import './App.css';
+import Catalogue from  './Catalogue';
+
 
 class App extends Component {
   render(){
     return (
       <div>
-        <Profil />
-        <Profil />
-        <Profil />
+        <Catalogue />
       </div>
     )
   }
