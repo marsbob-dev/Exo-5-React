@@ -1,11 +1,14 @@
 import React, {Component} from 'react';
+import Profil from './components/Profil'
 import './App.css';
 
 class App extends Component {
   render(){
     return (
       <div>
-        <h1>Marcelin Bohbot</h1>
+        <Profil />
+        <Profil />
+        <Profil />
       </div>
     )
   }
